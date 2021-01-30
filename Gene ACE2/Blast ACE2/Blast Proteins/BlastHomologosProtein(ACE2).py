@@ -36,7 +36,7 @@ def isol_Prot(parsed_list):
             if hit[y] == '|':
                 c.append(y)
         type = hit[0: c[0]]
-        if type == "gb":
+        if type == "sp":
             k = hit[c[0]+1 : c[1]]
             if k not in DicAC:
                 DicAC[k] = 1
@@ -44,6 +44,7 @@ def isol_Prot(parsed_list):
     return ListProt
 
 x = parse('blastProtein(ACE2)', E_VALUE_THRESH=None)
+print(x)
 ListaProt = isol_Prot(x)
 with open('id_list_prot(ACE2).txt', 'w') as f:
         for item in ListaProt:
