@@ -36,7 +36,7 @@ def isol_Prot(parsed_list):
             if hit[y] == '|':
                 c.append(y)
         type = hit[0: c[0]]
-        if type == "sp":
+        if type == "ref":
             k = hit[c[0]+1 : c[1]]
             if k not in DicAC:
                 DicAC[k] = 1
