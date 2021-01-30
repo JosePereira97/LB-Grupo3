@@ -7,7 +7,6 @@ def get_prot(id):
 
     with ExPASy.get_sprot_raw(id) as handle:
         seq_record = SeqIO.read(handle, 'swiss')
-    print(seq_record)
     tam= len(seq_record.seq)
     seq= seq_record.seq
     tax= seq_record.annotations["taxonomy"]
@@ -24,7 +23,7 @@ def filtro(seq):
 idACE2 = 'Q9BYF1' #ID na swissprot do ACE2
 x = get_prot(idACE2)
 seq = filtro(x)
-result_handle = NCBIWWW.qblast('blastp', 'swissprot', seq)
+result_handle = NCBIWWW.qblast('blastp', 'refseq_protein', seq)
 with open('blastProtein(ACE2)', "w") as out_handle:
     out_handle.write(result_handle.read())
 result_handle.close()
