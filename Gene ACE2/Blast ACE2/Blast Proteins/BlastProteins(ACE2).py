@@ -15,15 +15,11 @@ def get_prot(id):
     y = ('ID:' + id + '|' + 'SEQUENCE:' + seq + '|' + 'SEQUENCE LENGTH:' + str(tam) + 'bp' + '|' + 'TAXONOMY:' + str(tax) + '|' + 'ORGANISM:' + org )
     return y
 
-def filtro(seq):
-    
-    seq = seq.split('|')
-    return seq
+
 
 idACE2 = 'Q9BYF1' #ID na swissprot do ACE2
 x = get_prot(idACE2)
-seq = filtro(x)
-result_handle = NCBIWWW.qblast('blastp', 'refseq_protein', seq)
+result_handle = NCBIWWW.qblast('blastp', 'nr', x)
 with open('blastProtein(ACE2)', "w") as out_handle:
     out_handle.write(result_handle.read())
 result_handle.close()
