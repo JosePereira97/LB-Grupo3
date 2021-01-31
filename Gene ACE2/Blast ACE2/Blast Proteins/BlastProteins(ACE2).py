@@ -4,7 +4,6 @@ from Bio import ExPASy
 
 def get_prot(id):
     
-
     with ExPASy.get_sprot_raw(id) as handle:
         seq_record = SeqIO.read(handle, 'swiss')
     tam= len(seq_record.seq)
