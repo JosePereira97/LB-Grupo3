@@ -1,0 +1,34 @@
+ID: QJF75467.1
+Nome: Surface Glycoprotein
+Estado: Unreviewd
+Organismo: Severe acute respiratory syndrome coronavirus 2
+Hospedeiro: Homo sapiens
+País de Origem: Estados Unidos da América (Michigan)
+
+ID: QJX45031.1
+Nome: Surface Glycoprotein
+Estado: Unreviewd
+Organismo: Severe acute respiratory syndrome coronavirus 2
+Hospedeiro: Homo sapiens
+País de Origem: Estados Unidos da América (Califórnia)
+
+ID: QJR85953.1
+Nome: Surface Glycoprotein
+Estado: Unreviewd
+Organismo: Severe acute respiratory syndrome coronavirus 2
+Hospedeiro: Homo sapiens
+País de Origem: Austrália (Victória)
+
+ID: QNN86157.1
+Nome: Surface Glycoprotein
+Estado: Unreviewd
+Organismo: Severe acute respiratory syndrome coronavirus 2
+Hospedeiro: Homo sapiens
+País de Origem: Estados Unidos da América (Virgínia)
+
+ID: QMI90807.1
+Nome: Surface Glycoprotein
+Estado: Unreviewd
+Organismo: Severe acute respiratory syndrome coronavirus 2
+Hospedeiro: Homo sapiens
+País de Origem: Estados Unidos da América (San Diego, Califórnia)

@@ -1,0 +1,24 @@
+ID: JX163927.1
+Nome: SARS coronavirus Tor2 isolate Tor2/FP1-10851 de genoma completo
+Organismo: SARS coronavirus Tor2
+País de Origem: Estados Unidos da América
+
+ID: JX163923.1
+Nome: SARS coronavirus Tor2 isolate Tor2/FP1-10912 de genoma completo
+Organismo: SARS coronavirus Tor2
+País de Origem: Estados Unidos da América
+
+ID: JN854286.1
+Nome: SARS coronavirus HKU-39849 isolate recSARS-CoV HKU-39849 de genoma completo
+Organismo: SARS coronavirus HKU-39849
+País de Origem: Reino Unido
+
+ID: JQ316196.1
+Nome: SARS coronavirus HKU-39849 isolate UOB de genoma completo
+Organismo: SARS coronavirus HKU-39849
+País de Origem: Reino Unido
+
+ID: DQ898174.1
+Nome: SARS coronavirus strain CV7 de genoma completo
+Organismo: Severe acute respiratory syndrome-related coronavirus
+País de Origem: Canadá
