@@ -1,4 +1,4 @@
-result_handle = open("PRSS1blast.xml")
+result_handle = open("blastProtein(PRSS1)2.xml1")
 
 from Bio.Blast import NCBIXML
 blast_record = NCBIXML.read(result_handle)
@@ -17,7 +17,7 @@ for alignment in blast_record.alignments:
              print(hsp.sbjct[0:75] + "...")
 
 from Bio import SearchIO
-blast_qresult = SearchIO.read("PRSS1blast.xml", "blast-xml")
+blast_qresult = SearchIO.read("blastProtein(PRSS1)2.xml1", "blast-xml")
 print(blast_qresult)
 
 blast_hit = blast_qresult[0]    # first hit from the query result('que é o nosso gene')

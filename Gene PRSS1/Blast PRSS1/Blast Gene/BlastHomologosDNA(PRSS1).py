@@ -1,5 +1,6 @@
 from Bio.Blast import NCBIXML
 
+
 def isol_AC(lista, id):
     '''
     VARIAVEIS:
@@ -42,6 +43,7 @@ def obter_lista(file, E_VALUE_THRESH):
                 y = alignment.title + '|' + str(alignment.length) + '|' + str(hsp.expect)
                 FILE.append(y)
     result_handle.close()
+    print(FILE)
     return FILE
 
 def DNA(id, file, E_VALUE_THRESH = None):
