@@ -15,11 +15,9 @@ def isol_AC(lista, id):
         for y in range(len(hit)):
             if hit[y] == '|':
                 c.append(y)
-        type = hit[c[1]+1 : c[2]]
-        if type == "gb":
-            y = hit[c[2]+1 : c[3]]
-            if y not in DicAC:
-                DicAC[y] = 1
+        y = hit[c[2]+1 : c[3]]
+        if y not in DicAC:
+            DicAC[y] = 1
     ListAC = list(DicAC.keys())
     return ListAC
 
