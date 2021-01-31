@@ -1,1 +1,0 @@
-Utilizando o software MEME, fizeram-se os motifs das sequências de DNA e verificou-se que têm elevada similaridade, exceto as sequências 31 e 32 que apresentam um padrão distinto das outras sequências. Isto acontece porque estas sequências apresentam um genoma parcial e não um genoma completo. 
