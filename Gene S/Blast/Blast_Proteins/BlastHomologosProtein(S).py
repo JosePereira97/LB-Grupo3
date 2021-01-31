@@ -22,11 +22,9 @@ def isol_Prot(parsed_list):
         for y in range(len(hit)):
             if hit[y] == '|':
                 c.append(y)
-        type = hit[0: c[0]]
-        if type == "gb":
-            k = hit[c[0]+1 : c[1]]
-            if k not in DicAC:
-                DicAC[k] = 1
+        k = hit[c[0]+1 : c[1]]
+        if k not in DicAC:
+            DicAC[k] = 1
     ListProt = list(DicAC.keys())
     return ListProt
 

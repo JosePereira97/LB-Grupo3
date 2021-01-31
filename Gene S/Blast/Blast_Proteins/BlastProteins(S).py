@@ -17,7 +17,7 @@ def get_prot(id):
 
 idS = 'P0DTC2' #ID na swissprot do S
 x = get_prot(idS)
-result_handle = NCBIWWW.qblast('blastp', 'nr', x)
+result_handle = NCBIWWW.qblast('blastp', 'swissprot', x)
 with open('blastProtein(S)', "w") as out_handle:
     out_handle.write(result_handle.read())
 result_handle.close()
