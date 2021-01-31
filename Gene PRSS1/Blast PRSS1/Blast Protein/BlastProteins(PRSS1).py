@@ -23,6 +23,6 @@ idPRSS1 = 'P07477' #ID na swissprot do PRSS1
 x = get_prot(idPRSS1)
 seq = filtro(x)
 result_handle = NCBIWWW.qblast('blastp', 'nr', seq)
-with open('blastProtein(PRSS1)', "w") as out_handle:
+with open('blastProtein(PRSS1)2', "w") as out_handle:
     out_handle.write(result_handle.read())
 result_handle.close()
