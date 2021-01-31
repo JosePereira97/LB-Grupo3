@@ -2,9 +2,9 @@ from Bio import Entrez
 from Bio import SeqIO
 
 print('A criar ficheiro...')
-Output = 'ACE2homologos3.fasta'
+Output = 'ACE2homologosDNA.fasta'
 ficheiro_output = open(Output, 'w+')
-ficheiro = open('id_list_prot(ACE2).txt', 'r')
+ficheiro = open('id_listDNA(ACE2).txt', 'r')
 b_file = ficheiro.readlines()
 print('A recolher informações...')
 for a in b_file:
